@@ -62,16 +62,12 @@ The application can continue serving traffic.
 Example:
 
 ```bash
-#!/bin/bash
-
-apt update -y
-apt install nginx git -y
-
-cd /tmp
-
+#! /bin/bash
+sudo -i
+apt update
+apt install nginx  -y
 git clone https://github.com/karishma1521success/swiggy-clone.git
-
-cp -r swiggy-clone/* /var/www/html/
+mv swiggy-clone/* /var/www/html/
 ```
 
 
