@@ -660,7 +660,4 @@ routing/integration, a valid response, and access controls.
 -   [ ] Ensure no secrets were pasted into code or logs.
 -   [ ] Review CloudWatch log retention.
 
-**Trainer's note:** Keep dashboard numbers static for the first demo. In
-a follow-up, read real metrics from a protected source. For EC2
-automation, test with one explicitly tagged non-production instance
-before enabling a schedule.
+
